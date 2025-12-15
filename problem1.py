@@ -26,3 +26,11 @@ Enter a number: 16
 16 is not frue
 """
 
+num = input("Please enter an number")
+num = int(num)
+if num/6 == int(num/6) and num/8 == int(num/8):
+    print("The number is not true")
+elif num/6 == int(num/6):
+    print("The number is true")
+elif num/8 == int(num/8):
+    print("The number is true")

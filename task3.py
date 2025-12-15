@@ -24,3 +24,11 @@ Enter a number: 5
 Enter a number: 4.0
 4.0 is a positive integer
 """
+num = input("Enter a number")
+num = float(num)
+intpart = int(num)
+decpart = num - intpart
+if num < 0 or decpart != .0:
+    print("The number is not a positive integer")
+elif num > 0 or decpart == .0:
+    print("The number is a positive integer")

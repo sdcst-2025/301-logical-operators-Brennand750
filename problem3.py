@@ -30,3 +30,17 @@ Enter an integer=>4
 Enter an integer=>2
 2,4,5 do not form a Pythagorean triple
 """
+import math
+x = input("Please enter a number")
+y = input("Please enter another number")
+z = input("Please enter another number")
+x = int(x)
+y = int(y)
+z = int(z)
+x < y and z
+z > y and x
+x < y < z
+if math.sqrt(x**2 + y**2) == z and y in range(x,z):
+    print(x,y,z, "form a Pythagoran triple")
+else:
+    print(x,y,z, "do not form a Pythagoran triple")
